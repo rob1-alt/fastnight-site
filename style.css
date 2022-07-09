@@ -1,0 +1,35 @@
+@font-face {
+    font-family: ClashDisplay;
+    src: url("./src/OTF/ClashDisplay-Medium.otf") format("opentype");
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 11em;
+}
+
+h2{
+    font-size: 6em;
+}
+
+.hero{
+    font-family: 'ClashDisplay';
+    font-weight: medium;
+    background: white;
+    display: flex;
+    justify-content: center;
+    background-image:url("./src/heroHeader1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    height: 100vh;
+}
+
+.nav1{
+    list-style: none;
+    font-size: 4em;
+}
